@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PJ_018H'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CUI Inc.", "PJ-018H" (!) = "", "PJ018H", "Other", "", "", "DC Power Connectors Power Jacks", "https://www.cui.com/product/resource/pj-018h-smt-tr.pdf", "5 mm"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PJ-018H"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-12-18-16:15:28)
+    (mountForm default
+        (footprintRef "PJ018H")
+        (spec "System")
+    )
+)

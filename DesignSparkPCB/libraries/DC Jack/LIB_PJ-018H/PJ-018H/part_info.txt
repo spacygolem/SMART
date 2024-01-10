@@ -1,0 +1,9 @@
+Manufacturer=CUI Inc.
+PartNumber=PJ-018H
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2018-07-30 12:18:30
+Downloaded=2021-03-11 18:48:24
+3D=Y

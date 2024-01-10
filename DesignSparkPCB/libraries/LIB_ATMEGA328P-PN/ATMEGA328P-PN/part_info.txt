@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=ATMEGA328P-PN
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=28
+Version=2.1
+Released=2017-01-30 11:23:35
+Downloaded=2021-03-11 18:41:43
+3D=Y

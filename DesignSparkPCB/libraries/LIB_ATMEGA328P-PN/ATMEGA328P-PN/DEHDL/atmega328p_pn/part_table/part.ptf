@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATMEGA328P_PN'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "RJA", "VCC_MAX", "VCC_MIN", "IOUT_MAX", "IOUT_MIN", "ICC", "IGND", "RCA", "RJC", "ICCQ", "TECHNOLOGY";
+{========================================================================================}
+ "Microchip", "ATMEGA328P-PN" (!) = "", "DIP794W53P254L3467H457Q28N", "Dual-In-Line Packages", "1310275P", "http://uk.rs-online.com/web/p/products/1310275P", "8-bit Microcontrollers - MCU AVR 32K FLSH 2K SRAM 1KB EE-20 MHZ 105C", "http://uk.rs-online.com/web/p/products/1310275P", "4.572 mm", "125", "", "", "", "MCU THROUGH HOLE", "PDIP-28", "", "6", "", "", "", "200m", "200m", "", "", "", "CMOS"
+END_PART
+
+END.

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1021971"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-07-30-12:18:30)
+    (utime 2020-03-27-13:43:06)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "PJ-018H")
+)
+
+
+(pinAssign "ECS_1021971"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-07-30-12:18:30)
+    (utime 2020-03-27-13:43:06)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1021971")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PJ-018H")
+)
+
+
+(part "PJ-018H"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-07-30-12:18:30)
+    (utime 2020-03-27-13:43:06)
+    (packageRef "PJ-018H")
+    (pinAssignRef "ECS_1021971")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "DC Power Connectors Power Jacks")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Manufacturer_Name" "CUI Inc.")
+    (property "Manufacturer_Part_Number" "PJ-018H")
+    (property "Datasheet_Link" "https://www.cui.com/product/resource/pj-018h-smt-tr.pdf")
+    (property "compAreaTopHeight" 5)
+)
+
+

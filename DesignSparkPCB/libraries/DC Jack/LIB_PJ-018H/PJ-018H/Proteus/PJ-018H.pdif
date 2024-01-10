@@ -1,0 +1,121 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PJ-018H"
+   (description "DC Power Connectors Power Jacks")
+   (family "CON")
+   (package "PJ018H")
+   (attribute "Datasheet Link" "https://www.cui.com/product/resource/pj-018h-smt-tr.pdf")
+   (attribute "Geometry.Height" "5mm")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (attribute "Manufacturer_Name" "CUI Inc.")
+   (attribute "Manufacturer_Part_Number" "PJ-018H")
+   (gate
+    (symbol "PJ-018H")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "PJ-018H"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PJ018H"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -11.24 2.5)
+      (pt 0.16 2.5)
+      (pt 0.16 -2.5)
+      (pt -11.24 -2.5)
+      (pt -11.24 2.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -12.24 3.5)
+      (pt 2.275 3.5)
+      (pt 2.275 -4.815)
+      (pt -12.24 -4.815)
+      (pt -12.24 3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.16 2)
+      (pt 0.16 2.5)
+      (pt -11.24 2.5)
+      (pt -11.24 -2.54)
+      (pt -4.24 -2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.16 -2)
+      (pt 0.16 -2.5)
+      (pt -0.74 -2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 1.8 0.1)
+      (arc (pt 1.800 0.100) (pt 1.700 -0.100) (pt 1.900 0.100) (start -180.0) (sweep 90.0))
+      (pt 1.8 -0.1)
+      (arc (pt 1.800 -0.100) (pt 1.700 -0.100) (pt 1.900 0.100) (start -180.0) (sweep -90.0))
+      (pt 1.8 0.1))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -5.080 0.000) (padstack 0))
+   (leg 3 (pt -2.540 -2.540) (padstack 0))
+   (padstack 0
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (round 2.550))
+    (pad (layer INNER) (round 2.550))
+    (pad (layer BCOP) (round 2.550))
+   )
+   (model "PJ-018H.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
